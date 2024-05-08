@@ -29,6 +29,7 @@ class SuccessToast extends ToastBase {
     super.position = ToastPosition.bottom,
     super.duration,
     super.textAlign,
+    super.textStyle,
   });
 }
 
@@ -40,6 +41,7 @@ class FailureToast extends ToastBase {
     super.position = ToastPosition.bottom,
     super.duration,
     super.textAlign,
+    super.textStyle,
   });
 }
 
@@ -51,5 +53,6 @@ class NeutralToast extends ToastBase {
     super.position = ToastPosition.bottom,
     super.duration,
     super.textAlign,
+    super.textStyle,
   });
 }
