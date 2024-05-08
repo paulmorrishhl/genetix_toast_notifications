@@ -8,6 +8,7 @@ enum ToastPosition { top, bottom }
 abstract class ToastBase {
   final String message;
   final IconData icon;
+  final Color iconColor;
   final Color backgroundColor;
   final ToastPosition position;
   final ToastDuration duration;
@@ -17,6 +18,7 @@ abstract class ToastBase {
   ToastBase({
     required this.message,
     required this.icon,
+    this.iconColor = Colors.white,
     this.backgroundColor = Colors.green,
     this.position = ToastPosition.bottom,
     this.duration = ToastDuration.medium,

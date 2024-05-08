@@ -34,7 +34,7 @@ class GenetixToast extends StatelessWidget {
           child: Row(
             mainAxisSize: MainAxisSize.min,
             children: [
-              Icon(toast.icon, color: Colors.white, size: 24),
+              Icon(toast.icon, color: toast.iconColor, size: 24),
               const SizedBox(width: 8),
               Flexible( // Allows text to wrap if it goes beyond the width
                 child: Text(

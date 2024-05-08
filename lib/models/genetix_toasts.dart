@@ -25,6 +25,7 @@ class SuccessToast extends ToastBase {
   SuccessToast({
     required super.message,
     super.icon = Icons.check,
+    super.iconColor,
     super.backgroundColor = Colors.green,
     super.position = ToastPosition.bottom,
     super.duration,
@@ -37,6 +38,7 @@ class FailureToast extends ToastBase {
   FailureToast({
     required super.message,
     super.icon = Icons.error,
+    super.iconColor,
     super.backgroundColor = Colors.red,
     super.position = ToastPosition.bottom,
     super.duration,
@@ -49,6 +51,7 @@ class NeutralToast extends ToastBase {
   NeutralToast({
     required super.message,
     super.icon = Icons.info_rounded,
+    super.iconColor,
     super.backgroundColor = Colors.blueGrey,
     super.position = ToastPosition.bottom,
     super.duration,
