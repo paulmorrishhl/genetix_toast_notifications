@@ -12,6 +12,7 @@ abstract class ToastBase {
   final ToastPosition position;
   final ToastDuration duration;
   final TextAlign textAlign;
+  final TextStyle? textStyle;
 
   ToastBase({
     required this.message,
@@ -20,5 +21,6 @@ abstract class ToastBase {
     this.position = ToastPosition.bottom,
     this.duration = ToastDuration.medium,
     this.textAlign = TextAlign.left,
+    this.textStyle,
   });
 }
