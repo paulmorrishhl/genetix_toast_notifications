@@ -14,7 +14,7 @@ class GenetixToast extends StatelessWidget {
     return Center( // Center the toast horizontally
       child: Container(
         constraints: BoxConstraints(
-          maxWidth: screenWidth - 60, // Set a maximum width with a margin
+          maxWidth: screenWidth - 20, // Set a maximum width with a margin
           minWidth: 100, // Minimum width if needed
         ),
         margin: const EdgeInsets.all(20), // Margin around the toast for clear spacing
